@@ -1,0 +1,702 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'malang';
+    src: url('../font/MalangmalangR.ttf')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('../image/arrow.png') 2 2, auto;
+}
+
+ul {
+    list-style: none;
+}
+
+body.on {
+    overflow-y: hidden;
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+section.section:nth-child(2) {
+    height: auto;
+}
+
+section.section .inner {
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.section .inner h2 {
+    margin-top: 140px;
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+/*---------------main-------------- */
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.main .pink {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: scale(0.8) rotate(-45deg);
+}
+
+.main .pink .pink-shape {
+    animation: pinkk 2s linear infinite alternate both running;
+}
+
+@keyframes pinkk {
+    0% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(0.9);
+    }
+
+    100% {
+        transform: scaleY(0.8);
+    }
+}
+
+.main .triangle {
+    position: absolute;
+    top: -35%;
+    left: 30%;
+}
+
+.main .bluefl {
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    animation: blueflower 10s linear infinite running;
+}
+
+@keyframes blueflower {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main .ellipse {
+    position: absolute;
+    bottom: 0%;
+    left: 4%;
+}
+
+.main .pentagon {
+    position: absolute;
+    bottom: -1%;
+    left: 3%;
+    animation: pentagon 20s linear infinite running;
+}
+
+@keyframes pentagon {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main .blackfl {
+    position: absolute;
+    bottom: 3%;
+    left: 5.2%;
+    animation: blackflower 30s linear infinite running;
+}
+
+@keyframes blackflower {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+.main .portfolio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 44rem;
+    height: 8rem;
+    border-radius: 2.5rem;
+    background-color: #000;
+    border: 3px solid #000;
+}
+
+.main .portfolio::before {
+    content: 'Portfolio';
+    display: block;
+    font-size: 5rem;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    line-height: 8rem;
+    text-align: center;
+    background-color: #FFDF6D;
+    border: 3px solid #000;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border-radius: 2.5rem;
+    transition: all 0.3s;
+}
+
+.main .portfolio:hover::before {
+    transform: translate(-8px, 8px);
+}
+
+.main .name {
+    position: absolute;
+    width: 35rem;
+    height: 7rem;
+    border: 7px solid rgb(2, 134, 24);
+    bottom: 15%;
+    right: 10%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 6rem;
+}
+
+/*---------------gotop-------------- */
+.gotop {
+    z-index: 500;
+    display: block;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    display: none;
+    transform: scale(0.8);
+    transition: all 0.5s;
+}
+
+.gotop:hover {
+    transform: none;
+}
+
+/*-------------fixedbar------------ */
+.fixedbar {
+    margin-top: 3rem;
+    width: 100%;
+    height: 3rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+/*--------------aboutme------------- */
+.aboutme {
+    display: flex;
+    height: 90vh;
+}
+
+.aboutme .menu {
+    width: 20%;
+    height: 100%;
+    text-align: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.aboutme .menu h4 {
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.aboutme .menu ul {
+    margin-top: 13rem;
+}
+
+.aboutme .menu li {
+    padding-left: 10%;
+    font-size: 1.4rem;
+    width: inherit;
+    height: 5rem;
+    line-height: 5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+}
+
+.aboutme .menu li:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.aboutme .menu li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.aboutme .text-wrapper {
+    width: 75%;
+    height: 50%;
+    margin: 5% 10%;
+}
+
+.aboutme .text {
+    margin-bottom: 5rem;
+}
+
+.aboutme .info {
+    margin-top: 6rem;
+}
+
+.aboutme h5 {
+    font-size: 1.5rem;
+}
+
+.aboutme p {
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.aboutme .text-wrapper .text h2 {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+}
+
+.aboutme .text-wrapper .info .info1 {
+    width: 550px;
+    float: left;
+    padding-right: 2rem;
+}
+
+.aboutme .text-wrapper .info .info2 {
+    width: 270px;
+    float: left;
+    margin-left: 5rem;
+}
+.aboutme .text-wrapper .info .info2 img {
+    width: 150px;
+    border-radius: 20px;
+}
+/*---------------app-------------- */
+.app {
+    background-color: rgba(93, 209, 105, 0.2);
+}
+
+.app a {
+    color: #000;
+}
+
+.app .inner h2 {
+    width: 100%;
+}
+
+.kommimg img {
+    width: 180px;
+}
+.mockup-2 {
+    transform: translateX(-20px);
+}
+
+.waenziimg {
+    transform: translateX(2.5rem);
+}
+
+.waenziimg img {
+    width: 180px;
+}
+
+.app .inner .appbox {
+    width: 23%;
+    height: 13rem;
+    margin-top: 9rem;
+}
+
+.app .inner .appbox p {
+    padding: 5px 0;
+}
+.kommbox {
+    transform: translateX(-2.5rem);
+}
+
+.app .inner .appbox .komm-logo {
+    margin-bottom: 0.5rem;
+}
+.app .inner .appbox .waenzi-logo {
+    margin-bottom: 1rem;
+}
+
+.app .inner .appbox .komm-logo img {
+    width: 45%;
+}
+
+.app .inner .appbox .komm-logo .komm {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transform: translateY(-10px);
+}
+
+.app .inner .appbox .waenzi-logo img {
+    width: 60px;
+}
+
+.app .inner .appbox .waenzi-logo .waenzi {
+    font-size: 3rem;
+    padding-left: 8px;
+    color: #F36B07;
+    font-weight: bold;
+    font-family: 'malang';
+    position: absolute;
+}
+
+.app .appbox button {
+    display: inline-block;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 35px;
+    background-color: #F4A42B;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.app button:hover {
+    background-color: #08721a;
+}
+
+/*---------------web-------------- */
+.web {
+    background-color: #FFE8E8;
+}
+
+.web .inner h2 {
+    padding-bottom: 8rem;
+}
+
+.web .inner .webwrap {
+    display: flex;
+    margin-bottom: 20rem;
+    justify-content: space-between;
+}
+
+.web .webbox {
+    width: 26rem;
+    height: 16rem;
+    border-radius: 1.1rem;
+    overflow: hidden;
+    margin-top: 25rem;
+    position: relative;
+}
+
+.web .inner .webwrap .webbox p {
+    font-size: 1.1rem;
+    padding: 5px 20px;
+}
+
+.web .inner .webwrap .webbox .title {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.web .inner .screenbox {
+    width: 50rem;
+}
+
+.web .inner .screenbox img {
+    width: 100%;
+}
+
+.web .inner .webwrap .box1 {
+    margin-left: 12rem;
+}
+
+.web .inner .webwrap .box3 {
+    margin-left: 12rem;
+}
+
+.web .inner .webwrap .parisscreen {
+    margin-left: 12rem;
+}
+
+.web .inner .webwrap P {
+    font-size: 1.5rem;
+    padding: 2px 0;
+}
+
+.web .inner button {
+    display: inline-block;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: #F4A42B;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0.8rem;
+    margin-top: 2rem;
+}
+
+.web .inner button a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*---------------ad-------------- */
+.ad {
+    background-color: rgba(255, 223, 109, 0.3);
+    position: relative;
+}
+
+/* popup */
+.ad .popupbox1,
+.ad .popupbox2,
+.ad .popupbox3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.ad .popup {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.ad .popup img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ad .adbox {
+    width: 28%;
+    height: 33rem;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 1.1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.ad .adbox .topbox {
+    width: 100%;
+    height: 11%;
+    background-color: #6f0285;
+    border-bottom: 3px solid #000;
+    text-align: right;
+    padding-right: 20px;
+    line-height: 55px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.adbox .img-wrapper {
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+
+.adbox img {
+    width: 100%;
+    height: 103%;
+}
+
+.adbox .img-wrapper::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border-radius: 1rem 1rem 0 0; */
+    background-color: rgba(253, 253, 253, 0.6);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.adbox .img-wrapper:hover::before {
+    opacity: 0;
+}
+
+.ad .adbox button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: rgb(241, 170, 15);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0;
+}
+
+.ad .adbox button i {
+    font-size: 38px;
+  text-align: center;
+  color: #000;
+}
+
+
+.ad .adbox button:hover {
+    background-color: #ae4fce;
+}
+
+
+/*---------------etc-------------- */
+.etc {
+    background-color: #EAF0FF;
+    position: relative;
+}
+
+.etc .etcpopup1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.etc .etcpopup {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.etc .etcpopup img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.etc .etcbox {
+    width: 28%;
+    height: 30rem;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 1.1rem;
+    position: relative;
+}
+
+.etc .etcbox button {
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    border: 1.5px solid #000;
+    background-color: #f0c425;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 2rem;
+    /* background: #f0c425 url('../image/Polygon\ 2.png') no-repeat center/50%; */
+    z-index: 999 !important;
+}
+
+.etc .etcbox button i {
+    font-size: 28px;
+  text-align: center;
+  color: #000;
+}
+
+.etc .etcbox button:hover::before {
+    background-color: rgb(92, 94, 240);
+}
+
+.etc .inner .etcbox p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2.2rem;
+    left: 2rem;
+}
+
+.etcbox .innerbox {
+    overflow: hidden;
+}
+
+.etc .etcbox .innerbox {
+    width: 100%;
+    height: 80%;
+    border-bottom: 3px solid #000;
+    border-radius: 1rem 1rem 0 0;
+    position: relative;
+}
+
+.etc .etcbox .innerbox::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1rem 1rem 0 0;
+    background-color: rgba(253, 253, 253, 0.6);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.etc .etcbox .innerbox:hover::before {
+    opacity: 0;
+}
+
+.etcbox .innerbox img {
+    width: 100%;
+    height: 100%;
+}

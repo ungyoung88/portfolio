@@ -1,0 +1,993 @@
+@media screen and (max-width: 1440px) {
+    .section {
+        width: 100%;
+        height: 90vh;
+        padding-top: 1px;
+    }
+
+    section.section .inner {
+        width: 1100px;
+    }
+
+    .aboutme .text-wrapper {
+        width: 60%;
+    }
+
+    .aboutme p {
+        font-size: 16px;
+    }
+
+    .aboutme .text-wrapper .info .info1 {
+        padding-right: 5px;
+    }
+
+    .aboutme .text-wrapper .info .info2 {
+        margin-left: 2rem;
+        float: right;
+    }
+
+    .kommimg img {
+        width: 130px;
+    }
+
+    .kommbox {
+        transform: translate(-2rem, -1.5rem);
+    }
+
+    .waenziimg {
+        transform: translateX(2rem);
+    }
+
+    .waenziimg img {
+        width: 130px;
+    }
+
+    .app .inner .appbox .waenzi-logo img {
+        width: 45px;
+    }
+
+    .app .inner .appbox .waenzi-logo .waenzi {
+        font-size: 2.3rem;
+    }
+
+    .app .inner .appbox {
+        width: 22%;
+        height: 10rem;
+        margin-top: 6rem;
+        margin-left: 10px;
+    }
+
+    .app .inner .appbox p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    .app .appbox button {
+        display: inline-block;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 35px;
+        background-color: #F4A42B;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .web .inner .webwrap {
+        margin-bottom: 10rem;
+    }
+
+    .web .inner .screenbox {
+        width: 35rem;
+    }
+
+    .web .webbox {
+        margin-top: 15rem;
+    }
+
+    .web .inner .webwrap .box1 {
+        margin-left: 7rem;
+    }
+
+    .web .inner .webwrap .box3 {
+        margin-left: 8rem;
+    }
+
+    .web .inner .webwrap P {
+        font-size: 1.2rem;
+    }
+
+    .web .inner button {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .ad .adbox .topbox {
+        line-height: 35px;
+    }
+
+    .ad .adbox {
+        width: 25%;
+        height: 23rem;
+    }
+
+    .etc .etcbox {
+        width: 25%;
+        height: 21rem;
+    }
+
+    .etc .etcbox button {
+        bottom: 8px;
+        right: 2rem;
+    }
+
+    .etc .inner .etcbox p {
+        bottom: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    section.section .inner h2 {
+        font-size: 2.5rem;
+        margin-top: 100px;
+    }
+
+    .section {
+        height: 70vh;
+    }
+
+    .main .pink {
+        width: 300px;
+    }
+
+    .main .pink .pink-shape {
+        width: 100%;
+    }
+
+    .main .triangle {
+        width: 350px;
+    }
+
+    .main .bluefl {
+        width: 250px;
+    }
+
+    .main .ellipse {
+        width: 280px;
+    }
+
+    .main .pentagon {
+        width: 300px;
+    }
+
+    .main .blackfl {
+        width: 250px;
+    }
+
+    .main .portfolio {
+        width: 34rem;
+        height: 6rem;
+    }
+
+    .main .portfolio::before {
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    .main .name {
+        width: 23rem;
+        height: 5rem;
+        bottom: 15%;
+        right: 10%;
+        font-size: 1.2rem;
+        line-height: 4rem;
+    }
+
+    .gotop {
+        right: 0;
+        bottom: 0;
+        transform: scale(0.5);
+    }
+
+    .fixedbar {
+        margin-top: 0;
+        z-index: 9999;
+    }
+
+    .aboutme .menu li {
+        font-size: 1rem;
+        height: 3.5rem;
+        line-height: 53px;
+    }
+
+    .aboutme .text-wrapper {
+        width: 90%;
+        margin: 5px 5.5rem;
+    }
+
+    .aboutme .text-wrapper .text h2 {
+        font-size: 2.5rem;
+    }
+
+    .aboutme h5 {
+        font-size: 1rem;
+    }
+
+    .aboutme p {
+        font-size: 13px;
+        padding: 8px 0;
+    }
+
+    .aboutme .menu ul {
+        margin-top: 7rem;
+    }
+
+
+    .aboutme .text-wrapper .info .info1 {
+        width: 370px;
+    }
+
+    .aboutme .text-wrapper .info .info2 {
+        float: right;
+        margin-left: 50px;
+    }
+
+    .aboutme .text-wrapper .info .info2 img {
+        width: 100px;
+    }
+
+    section.section .inner {
+        width: 800px;
+    }
+
+    .kommimg img {
+        width: 100px;
+    }
+
+    .waenziimg img {
+        width: 100px;
+    }
+
+    .kommbox {
+        transform: translate(-2rem, -1.5rem);
+    }
+
+    .waenziimg {
+        transform: translateX(2rem);
+    }
+
+    .app .inner .appbox .waenzi-logo img {
+        width: 40px;
+    }
+
+    .app .inner .appbox .waenzi-logo .waenzi {
+        font-size: 2rem;
+    }
+
+    .app .inner .appbox {
+        width: 22%;
+        height: 10rem;
+        margin-top: 4rem;
+        margin-left: 7px;
+    }
+
+    .app .inner .appbox p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    .web .inner .webwrap {
+        margin-bottom: 10rem;
+    }
+
+    .web .inner h2 {
+        padding-bottom: 5rem;
+    }
+
+    .web .inner .screenbox {
+        width: 23rem;
+    }
+
+    .web .webbox {
+        margin-top: 6rem;
+    }
+
+    .web .inner .webwrap .webbox .title {
+        font-size: 1.8rem;
+        margin-bottom: 2px;
+    }
+
+    .web .inner .webwrap .box1 {
+        margin-left: 7rem;
+    }
+
+    .web .inner .webwrap .box3 {
+        margin-left: 8rem;
+    }
+
+    .web .inner .webwrap .parisscreen {
+        margin-left: 1rem;
+    }
+
+    .web .inner .webwrap P {
+        font-size: 0.8rem;
+    }
+
+    .web .inner button {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 1rem;
+    }
+
+    .ad .adbox .topbox {
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .ad .adbox {
+        width: 25%;
+        height: 17rem;
+    }
+
+    .ad .adbox button {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .ad .adbox button i {
+        font-size: 27px;
+    }
+
+    .etc .etcbox {
+        width: 25%;
+        height: 16rem;
+    }
+
+    .etc .etcbox button {
+        width: 2rem;
+        height: 2rem;
+        bottom: 8px;
+        right: 1rem;
+    }
+
+    .etc .etcbox button i {
+        font-size: 20px;
+    }
+
+    .etc .inner .etcbox p {
+        font-size: 1rem;
+        bottom: 1rem;
+        left: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    section.section .inner h2 {
+        font-size: 2rem;
+        margin-top: 80px;
+    }
+
+    .section {
+        height: 60vh;
+    }
+
+    .main .pink {
+        width: 200px;
+    }
+
+    .main .pink .pink-shape {
+        width: 100%;
+    }
+
+    .main .triangle {
+        width: 200px;
+    }
+
+    .main .bluefl {
+        width: 150px;
+    }
+
+    .main .ellipse {
+        width: 180px;
+    }
+
+    .main .pentagon {
+        width: 190px;
+    }
+
+    .main .blackfl {
+        width: 150px;
+    }
+
+    .main .portfolio {
+        width: 20rem;
+        height: 4rem;
+        border-radius: 1.3rem;
+    }
+
+    .main .portfolio::before {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        border-radius: 1.3rem;
+    }
+
+    .main .name {
+        width: 19rem;
+        height: 4rem;
+        bottom: 15%;
+        right: 10%;
+        font-size: 1rem;
+        line-height: 3rem;
+    }
+
+    .gotop {
+        right: 0;
+        bottom: 0;
+        transform: scale(0.5);
+    }
+
+    .fixedbar {
+        margin-top: 0;
+    }
+
+    .aboutme .menu {
+        width: 25%;
+    }
+
+    .aboutme .menu li {
+        font-size: 14px;
+        height: 3.5rem;
+        line-height: 53px;
+    }
+
+    .aboutme .text-wrapper .text h2 {
+        font-size: 2rem;
+    }
+
+    .aboutme h5 {
+        font-size: 0.9rem;
+    }
+
+    .aboutme p {
+        font-size: 12px;
+        padding: 5px 0;
+        text-align: left;
+    }
+
+    .aboutme .menu ul {
+        margin-top: 7rem;
+    }
+
+    .aboutme .text-wrapper {
+        width: 75%;
+        margin: 30px;
+        height: 100%;
+        text-align: center;
+    }
+
+    .aboutme .info {
+        transform: translateY(-40px);
+    }
+
+    .aboutme .text-wrapper .info .info1 {
+        width: 220px;
+        white-space: wrap;
+        text-align: left;
+    }
+
+    .aboutme .text-wrapper .info .info2 {
+        width: 220px;
+        margin-left: 1rem;
+        float: right;
+    }
+
+    .aboutme .text-wrapper .info .info2 img {
+        width: 80px;
+        border-radius: 10px;
+    }
+
+    section.section .inner {
+        width: 570px;
+        display: block;
+    }
+
+    section.section {
+        height: auto;
+    }
+
+    .kommimg {
+        float: left;
+    }
+
+    .kommimg img {
+        width: 120px;
+    }
+
+    .waenziimg img {
+        width: 120px;
+    }
+
+    .waenziimg {
+        float: left;
+        transform: translate(5px, 110px);
+    }
+
+    .app .inner .appbox {
+        float: right;
+        width: 45% !important;
+        height: 13rem;
+        margin: 4.5rem 0;
+        padding-left: 15px;
+    }
+
+    .app .inner .appbox .waenzi-logo img {
+        width: 40px;
+    }
+
+    .app .inner .appbox .waenzi-logo .waenzi {
+        font-size: 2rem;
+    }
+
+    .app .inner .appbox p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    .app .inner::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .web .inner .webwrap {
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .web .inner h2 {
+        padding-bottom: 1rem;
+    }
+
+    .web .inner .screenbox {
+        width: 40rem;
+    }
+
+    .web .webbox {
+        margin-top: 4rem;
+    }
+
+    .web .inner .webwrap .webbox .title {
+        font-size: 1.3rem;
+    }
+
+    .web .inner .webwrap .box1 {
+        margin-left: 1rem;
+    }
+
+    .web .inner .webwrap .box3 {
+        margin-left: 1rem;
+    }
+
+    .web .inner .webwrap .parisscreen {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .web .inner .webwrap .webbox p {
+        font-size: 14px;
+    }
+
+    .web .inner button {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 1rem;
+        float: left;
+    }
+
+    .ad .adbox .topbox {
+        font-size: 1.2rem;
+        line-height: 37px;
+        height: 40px;
+    }
+
+    .ad .adbox {
+        margin: 30px auto;
+        width: 50%;
+        height: 380px;
+    }
+
+    .ad .box3 {
+        margin-bottom: 0;
+    }
+
+    .ad .inner {
+        padding-bottom: 50px;
+    }
+
+    .ad .adbox button {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .ad .adbox button i {
+        font-size: 27px;
+    }
+
+    .etc .etcbox {
+        width: 50%;
+        height: 350px;
+        margin: 30px auto;
+    }
+
+    .etc .etcbox3 {
+        margin-bottom: 0;
+    }
+
+    .etc .inner {
+        padding-bottom: 50px;
+    }
+
+    .etc .etcbox button {
+        width: 3rem;
+        height: 3rem;
+        bottom: 8px;
+        right: 1rem;
+    }
+
+    .etc .etcbox button i {
+        font-size: 27px;
+    }
+
+    .etc .inner .etcbox p {
+        font-size: 1.3rem;
+        bottom: 1.3rem;
+        left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    section.section .inner h2 {
+        font-size: 2rem;
+        margin-top: 80px;
+    }
+
+    /* .section {
+        height: 40vh;
+    } */
+    .section.aboutme {
+        height: 70vh;
+    }
+    .main .pink {
+
+        width: 160px;
+    }
+
+    .main .pink .pink-shape {
+        width: 100%;
+    }
+
+    .main .triangle {
+        width: 120px;
+        transform: translateY(210px);
+    }
+
+    .main .bluefl {
+        width: 120px;
+    }
+
+    .main .ellipse {
+        width: 150px;
+    }
+
+    .main .pentagon {
+        width: 160px;
+    }
+
+    .main .blackfl {
+        width: 145px;
+        transform: translateY(10px);
+    }
+
+    .main .portfolio {
+        width: 15rem;
+        height: 4rem;
+        border-radius: 1.3rem;
+    }
+
+    .main .portfolio::before {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        border-radius: 1.3rem;
+    }
+
+    .main .name {
+        width: 10rem;
+        height: 7rem;
+        bottom: 5%;
+        right: 5%;
+        font-size: 15px;
+        line-height: 3rem;
+    }
+
+    .gotop {
+        right: 0;
+        bottom: 0;
+        transform: scale(0.5);
+    }
+
+    .fixedbar {
+        margin-top: 0;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .aboutme .menu {
+        width: 100%;
+        height: 10%;
+    }
+    .aboutme .menu ul {
+        margin: 0;
+        display: flex;
+        margin-top: 10px;
+        /* transform: translateY(-100px) */
+    }
+
+    .aboutme .menu li {
+        font-size: 12px;
+        width: 100%;
+        height: 2rem;
+        line-height: 30px;
+        padding-left: 1px ;
+        display: inline-block;
+        white-space: nowrap;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .aboutme .text-wrapper .text h2 {
+        font-size: 1.5rem;
+    }
+
+    .aboutme h5 {
+        font-size: 0.8rem;
+    }
+
+    .aboutme p {
+        font-size: 12px;
+        padding: 2px 0;
+    }
+
+    .aboutme .text-wrapper {
+        width: 75%;
+        margin: 1rem auto;
+        padding-left: 25px;
+        height: 80%;
+    }
+
+    .aboutme .info {
+        transform: translateY(-50px);
+    }
+
+    .aboutme .text-wrapper .info .info1 {
+        width: 220px;
+        white-space: wrap;
+        transform: translateY(120px);
+    }
+
+    .aboutme .text-wrapper .info .info2 {
+        width: 220px;
+        margin-left: 1rem;
+        float: right;
+        transform: translate(-37px, 10px);
+    }
+
+    .aboutme .text-wrapper .info .info2 img {
+        width: 80px;
+        border-radius: 10px;
+        transform: translate(20px, -170px);
+    }
+
+    section.section .inner {
+        width: 250px;
+        display: block;
+
+    }
+
+    section.section {
+        height: auto;
+    }
+
+    .kommimg img {
+        width: 90px;
+    }
+
+    .waenziimg {
+        transform: translateY(10px);
+    }
+
+    .waenziimg img {
+        width: 90px;
+    }
+
+    .app .inner .appbox {
+        width: 100% !important;
+        height: 13rem;
+        margin: 2rem 0;
+        padding-left: 15px;
+        transform: translate(30px, -40px);
+    }
+
+    .app .inner .appbox .komm-logo img {
+        width: 100px;
+        transform: translate(135px, 15px);
+    }
+
+    .app .inner .appbox .komm-logo .komm {
+        transform: translateX(103px);
+    }
+
+    .app .inner .appbox .waenzi-logo img {
+        width: 40px;
+        transform: translate(80px, 15px);
+    }
+
+    .app .inner .appbox button {
+        transform: translateX(70px);
+    }
+
+    .app .inner .appbox .waenzi-logo .waenzi {
+        font-size: 2rem;
+        transform: translate(80px, 15px);
+    }
+
+    .app .inner .appbox p {
+        font-size: 11px;
+        padding: 2px 0;
+        text-align: right;
+    }
+
+    .app .inner::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .web .inner .webwrap {
+        padding-bottom: 100px;
+        margin-bottom: 0;
+
+    }
+
+    .web .inner h2 {
+        padding-bottom: 1rem;
+    }
+
+    .web .inner .screenbox {
+        width: 14rem;
+    }
+
+    .web .inner .webwrap {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .web .webbox {
+        margin-top: 1rem;
+    }
+
+    .web .inner .webwrap .webbox .title {
+        font-size: 1.3rem;
+    }
+
+
+    .web .inner .webwrap:nth-child(3) {
+        display: block;
+        transform: translate(-10px, 60px);
+    }
+
+    .web .inner .webwrap .box1 {
+        margin-left: 0;
+        margin-bottom: 70px;
+        width: 300px;
+        transform: translateX(-20px);
+    }
+
+    .web .inner .webwrap .box2 {
+        width: 300px;
+        transform: translate(-10px, 80px);
+    }
+
+    .web .inner .webwrap .box3 {
+        margin-left: 0;
+        width: 300px;
+        transform: translateX(-20px);
+    }
+
+    .web .inner .webwrap .parisscreen {
+        margin-left: 1rem;
+        margin-top: 1rem;
+        transform: translate(-10px, -400px);
+    }
+
+    .web .inner .webwrap .hansae {
+        transform: translate(-10px, -300px) !important;
+    }
+
+    .web .inner .webwrap .webbox p {
+        font-size: 14px;
+    }
+
+    .web .inner button {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .ad .adbox .topbox {
+        font-size: 1.2rem;
+        line-height: 37px;
+        height: 40px;
+    }
+
+    .ad .adbox {
+        margin: 30px auto;
+        width: 80%;
+        height: 270px;
+    }
+
+    .ad .box3 {
+        margin-bottom: 0;
+    }
+
+    .ad .inner {
+        padding-bottom: 50px;
+    }
+
+    .ad .adbox .topbox {
+        font-size: 13px;
+    }
+
+    .ad .adbox button {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .ad .adbox button i {
+        font-size: 20px;
+    }
+
+    .etc .etcbox {
+        margin: 30px auto;
+        width: 80%;
+        height: 250px;
+    }
+
+    .etc .etcbox3 {
+        margin-bottom: 0;
+    }
+
+    .etc .inner {
+        padding-bottom: 50px;
+    }
+
+    .etc .etcbox button {
+        width: 2rem;
+        height: 2rem;
+        bottom: 8px;
+        right: 1rem;
+    }
+
+    .etc .etcbox button i {
+        font-size: 20px;
+    }
+
+    .etc .inner .etcbox p {
+        font-size: 1rem;
+        bottom: 1rem;
+        left: 1.5rem;
+    }
+}
